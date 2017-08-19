@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:900i" rel="stylesheet">
+</head>
+<body>
+	<h1>Crystal Collectors!</h1>
+
+	<div class="rules">
+		<p>You will be given a random number at the start of the game.<br />
+There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br />
+You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br />
+The value of each crystal is hidden from you until you click on it.<br />
+Each time when the game starts, the game will change the values of each crystal.
+		</p>
+	</div>
+
+	<div class="showRandNum">
+		<p>Random Number: 0</p>
+	</div>
+
+	<div class="showPlayerNum">
+		<p>Your Number: 0</p>
+	</div>
+
+	<div class="crystals">
+		<input type="image" src="assets/images/ruby.jpg" alt="submit" id="ruby">
+		<input type="image" src="assets/images/sapphire.jpg" alt="submit" id="sapphire">
+		<input type="image" src="assets/images/amethyst.jpg" alt="submit" id="amethyst">
+		<input type="image" src="assets/images/pearl.jpg" alt="submit" id="pearl">
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/game.js"></script>
+</body>
+</html>

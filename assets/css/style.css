@@ -1,0 +1,46 @@
+body {
+	background-color: #FFD0C5;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Raleway";
+	font-size: 75px;
+}
+
+.rules {
+	display: flex;
+	justify-content: center;
+	border: 1px solid red;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+	background-color: #FFB09F;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 30px;
+	font-family: "Raleway";
+	font-size: 18px;
+}
+
+.showRandNum {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	font-family: "Raleway";
+	font-size: 30px;
+}
+
+.showPlayerNum {
+	display: flex;
+	justify-content: center;
+	font-family: "Raleway";
+	font-size: 30px
+}
+
+.crystals {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
